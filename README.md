@@ -8,7 +8,7 @@ This is a Node.js, ES6, ReactJS, Gmail API web app that lets you read your inbox
 
    * Support for displaying "plain text" and "html" emails
 
-   * Good example of how to use the client-side, all-JavaScript Google APIs for auth + reading/sending emails.
+   * Good example of how to use the client-side JavaScript Google APIs for auth + reading/sending emails.
 
    * Completely "component base" app structure.
 
