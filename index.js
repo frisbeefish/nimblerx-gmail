@@ -68,29 +68,3 @@ if (app.get('env') === 'production') {
 
 }
 
-// NODE_ENV=production
-
-/**
- * Create HTTP server.
- */
-
-
-
-//var server = http.createServer(app);
-
-/**
- * Listen on provided port, on all network interfaces.
- */
-
-//server.listen(port);
-//server.on('error', onError);
-//server.on('listening', onListening);
-
-
-/*
-app.listen(app.get('port'), function() {
-  console.log('scott Node app is running on port', app.get('port'));
-});
-*/
-
-
