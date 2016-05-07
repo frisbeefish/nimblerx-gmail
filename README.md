@@ -13,9 +13,8 @@ Features:
    * Completely "component base" app structure.
 
 
-You can try it live here: [https://still-plains-48636.herokuapp.com](https://still-plains-48636.herokuapp.com){:target="_blank"}
+You can try it live here: [https://still-plains-48636.herokuapp.com](https://still-plains-48636.herokuapp.com)
  
-
 
 
 NOTE #1: It supports offline mode. If you disconnect your network, the client still allows you to reply to emails
