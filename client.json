@@ -1,0 +1,11 @@
+{
+    "web": {
+        "client_id": "614539835590-2hjig46k992utc16mbj5d574ksb5032p.apps.googleusercontent.com",
+        "project_id": "windy-ripsaw-130118",
+        "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+        "token_uri": "https://accounts.google.com/o/oauth2/token",
+        "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+        "client_secret": "geMQhGOcl4j7X5RM95jz2LVL",
+        "javascript_origins": ["http://localhost"]
+    }
+}

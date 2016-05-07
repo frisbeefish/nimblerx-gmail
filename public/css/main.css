@@ -1,0 +1,233 @@
+body {
+  padding-top: 50px;
+}
+
+li.compose-email-link {
+
+}
+
+li.compose-email-link a {
+   color:#fff !important;
+}
+
+.hidden {
+    display:none;
+}
+
+div.login-view {
+   text-align:center;
+   padding:30px;
+}
+
+div.offline-message {
+    position:absolute;
+    top:12px;
+    right:12px;
+    height:44px
+    line-height:44px;
+    padding-left:6px; 
+    padding-right:6px;
+    color:white;
+    font-weight:200;
+    font-style:italic;
+    font-size:16px;
+    border:1px solid white;
+}
+
+div.offline-message .red-dot {
+   border-radius:50%;
+   background-color:#ff3300;
+   width:8px;
+   height:8px;
+   display:inline-block;
+}
+
+
+tr.message-list-row {
+    cursor:pointer;
+}
+
+tr.message-list-row td {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* Internet Explorer/Edge */
+  user-select: none;           /* Non-prefixed version, currently                                  not supported by any browser */
+}
+
+
+
+/************************************************
+*
+* The read-only view of an existing message you clicked on from the list.
+*
+*************************************************/
+
+div.single-message-view {
+   position:relative;
+   margin-top:50px;
+   margin-bottom:50px;
+   margin-left:auto;
+   margin-right:auto;
+   width:900px;
+   
+   border-radius:6px;
+
+   -webkit-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.35);
+   -moz-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.35);
+   box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.35);
+   background-color:white;
+   border:1px solid #eee;
+
+}
+
+div.single-message-view header.title {
+    position:relative;
+    padding:10px;
+    padding-top:20px;
+    padding-bottom:20px;
+    border-bottom:1px solid #eee;
+}
+
+div.single-message-view header.title h3 {
+   margin:0;
+   padding:0;
+   display:inline-block;
+   font-size:18px;
+}
+
+div.single-message-view header.title button {
+   position:relative;
+   top:-13px;
+   float:right;
+   color:#aaa;
+   text-decoration:none;
+   font-size:20px;
+}
+
+div.single-message-view header.from-and-date {
+    position:relative;
+    padding-left:10px;
+    padding-right:0px;
+    border-bottom:1px solid #eee;
+    height:40px;
+    line-height:40px;
+}
+
+div.single-message-view header.from-and-date span.from {
+}
+
+div.single-message-view header.from-and-date span.date {
+   position:relative;
+   right:-20px;
+   float:right;
+   margin-right:0px;
+   color:#bbb;
+}
+
+
+div.single-message-view section {
+   padding:10px;
+}
+
+div.single-message-view section iframe {
+   width:100%;
+   border:0;
+   /*min-height: 80%;
+   height: 600px;
+   display: flex;
+   */
+}
+
+div.single-message-view footer {
+    position:relative;
+    padding:10px;
+    border-top:1px solid #eee;
+    text-align:right;
+}
+
+
+
+/************************************************
+*
+* The "Compose" and "Reply" view
+*
+*************************************************/
+
+div.compose-message-view {
+   position:relative;
+   margin-top:50px;
+   margin-bottom:50px;
+   margin-left:auto;
+   margin-right:auto;
+   width:900px;
+   
+   border-radius:6px;
+
+   -webkit-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.35);
+   -moz-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.35);
+   box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.35);
+   background-color:white;
+   border:1px solid #eee;
+
+}
+
+div.compose-message-view header.title {
+    position:relative;
+    padding:10px;
+    padding-top:20px;
+    padding-bottom:20px;
+    border-bottom:1px solid #eee;
+}
+
+div.compose-message-view header.title h3 {
+   margin:0;
+   padding:0;
+   display:inline-block;
+   font-size:18px;
+}
+
+div.compose-message-view header.title button {
+   position:relative;
+   top:-13px;
+   float:right;
+   color:#aaa;
+   text-decoration:none;
+   font-size:20px;
+}
+
+
+
+div.compose-message-view header {
+    position:relative;
+    padding:10px;
+    border-bottom:1px solid #eee;
+}
+
+
+
+
+div.compose-message-view section {
+   padding:10px;
+}
+
+div.compose-message-view section textarea {
+   resize: vertical;
+   min-height:120px;
+}
+
+div.compose-message-view footer {
+    position:relative;
+    padding:10px;
+    border-top:1px solid #eee;
+    text-align:right;
+}
+
+div.compose-message-view footer button {
+   margin-left:10px;
+}
+
+
+
+
