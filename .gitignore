@@ -5,6 +5,10 @@ npm-debug.log*
 
 # client creds
 public/js/config.js
+server.crt
+server.csr
+server.enc.key
+server.key
 
 # Runtime data
 pids
