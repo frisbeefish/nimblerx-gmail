@@ -12,7 +12,6 @@ import moment from 'moment';
 class MessagesListRow extends React.Component {
 
     handleClick(event) {
-      //alert('clicked me');
        this.props.onSelectedRow(this.props.message);
     }
 
