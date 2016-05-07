@@ -1,7 +1,5 @@
 # nimblerx-gmail
 This is a ES6, ReactJS, Gmail API web app that lets you read your inbox and compose emails. This is just a toy. 
-
-You can try it live here: <a href="https://still-plains-48636.herokuapp.com" target="_blank">https://still-plains-48636.herokuapp.com</a>
  
 
 Features:
@@ -13,6 +11,11 @@ Features:
    * Good example of how to use the client-side, all-JavaScript Google APIs for auth + reading/sending emails.
 
    * Completely "component base" app structure.
+
+
+You can try it live here: [https://still-plains-48636.herokuapp.com](https://still-plains-48636.herokuapp.com){:target="_blank"}
+ 
+
 
 
 NOTE #1: It supports offline mode. If you disconnect your network, the client still allows you to reply to emails
