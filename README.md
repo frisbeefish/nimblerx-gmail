@@ -1,5 +1,5 @@
 # nimblerx-gmail
-This is a ES6, ReactJS, Gmail API web app that lets you read your inbox and compose emails. This is just a toy. 
+This is a Node.js, ES6, ReactJS, Gmail API web app that lets you read your inbox and compose emails. Node is just there to serve up the page. All of the logic is in the JavaScript/React client-side code. (Caveat: This is just a toy.)
  
 
 ## Features
